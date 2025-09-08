@@ -2,9 +2,9 @@
 
 ### Overview
 
-[cite_start]Large Language Models (LLMs), despite their capabilities, often "hallucinate"—producing plausible but incorrect statements with high confidence[cite: 14]. This project argues that this is not just a model failure, but a failure of the training and evaluation paradigm. [cite_start]Current benchmarks often use a binary scoring system that rewards guessing and penalizes uncertainty, optimizing models to be "good test-takers" rather than honest and reliable agents[cite: 18, 108].
+Large Language Models (LLMs), despite their capabilities, often "hallucinate"—producing plausible but incorrect statements with high confidence. This project argues that this is not just a model failure, but a failure of the training and evaluation paradigm. Current benchmarks often use a binary scoring system that rewards guessing and penalizes uncertainty, optimizing models to be "good test-takers" rather than honest and reliable agents. [(Source)](https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf).
 
-This Proof of Concept (PoC) explores an alternative approach inspired by professional certification exams (like the PMP Study Hall), where self-awareness of one's knowledge is as important as correctness. We aim to fine-tune an LLM not just to be correct, but to be **well-calibrated**—to express high confidence only when it is correct, and to appropriately express uncertainty or abstain when it is not.
+This Proof of Concept (PoC) explores an alternative approach inspired by professional certification exams (like the PMP Study Hall), where self-awareness of one's knowledge is as important as correctness. We aim to fine-tune an LLM not just to be correct, but to be **well-calibrated**—to express high confidence only when it is correct, and to appropriately express uncertainty or abstain when it is not. The PoC derives inspiration from recent OpenAI's work available [here](https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf).
 
 ### Project Goals
 
@@ -28,14 +28,14 @@ Our approach is a **human-in-the-loop, preference-tuning workflow**. We will cre
 
 ```mermaid
 graph TD
-    A[Start: TruthfulQA Dataset] --> B{Base LLM <br>(e.g., Llama-3-8B)};
+    A[Start: TruthfulQA Dataset] --> B[Base LLM; e.g., Llama-3-8B];
     B --> C[Generate Initial Responses];
-    C --> D{AI + Human-in-the-Loop Labeling};
-    D --> E[Create Preference Dataset <br> (Chosen vs. Rejected Pairs)];
+    C --> D[AI + Human-in-the-Loop Labeling];
+    D --> E[Create Preference Dataset; Chosen vs. Rejected Pairs];
     E --> F[Fine-Tune Model using DPO];
-    F --> G(Calibrated LLM);
+    F --> G[Calibrated LLM];
     G --> H[Evaluate on Test Set];
-    H --> I{Results: <br>- Reduced Hallucinations <br>- Improved Calibration};
+    H --> I[Results: Reduced Hallucinations and Improved Calibration];
 ```
 
 ### Tech Stack
