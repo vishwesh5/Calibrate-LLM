@@ -36,3 +36,15 @@ graph TD
     F --> G(Calibrated LLM);
     G --> H[Evaluate on Test Set];
     H --> I{Results: <br>- Reduced Hallucinations <br>- Improved Calibration};
+```
+
+### Tech Stack
+
+- Models: Llama-3-8B-Instruct (or similar)
+- Datasets: TruthfulQA
+- Frameworks: PyTorch
+- Libraries: Hugging Face transformers, datasets, trl (for DPO)
+
+### Getting Started
+
+*(Further instructions on running the scripts will be added here.)*
