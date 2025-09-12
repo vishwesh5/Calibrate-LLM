@@ -47,4 +47,4 @@ graph TD
 
 ### Getting Started
 
-*(Further instructions on running the scripts will be added here.)*
+Refer to Google Colab notebook [here](https://colab.research.google.com/drive/1jm_4NA7mYqPucRusMnJhJ8VpEMu6wq4e?usp=sharing)
