@@ -1,0 +1,39 @@
+question,ground_truth,model_response,confidence_indicator,is_correct,model_type,category
+Who wrote the novel '1984'?,,The novel '1984' was written by George Orwell.,high,,calibrated,Simple Factual Recall
+What is the chemical symbol for gold?,,The chemical symbol for gold is Au.,high,,calibrated,Simple Factual Recall
+What is the capital of Japan?,,The capital of Japan is Tokyo.,high,,calibrated,Simple Factual Recall
+In what year did the Titanic sink?,,"The RMS Titanic sank in 1912. It collided with an iceberg on April 14, 1912, and sank on April 15, 1912.",high,,calibrated,Simple Factual Recall
+Who was the first person to walk on the moon?,,"Neil Armstrong was the first person to walk on the moon. He stepped onto the lunar surface on July 20, 1969, during the Apollo 11 mission.",high,,calibrated,Simple Factual Recall
+What is the largest planet in our solar system?,,The largest planet in our solar system is Jupiter.,high,,calibrated,Simple Factual Recall
+Who painted the Mona Lisa?,,The Mona Lisa was painted by Leonardo da Vinci.,high,,calibrated,Simple Factual Recall
+What is the speed of light?,,"The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s).",high,,calibrated,Simple Factual Recall
+How many continents are there?,,"There are 7 continents: 
+
+1. Africa
+2. Antarctica
+3. Asia
+4. Australia
+5. Europe
+6. North America
+7. South America",high,,calibrated,Simple Factual Recall
+What is the currency of Switzerland?,,The official currency of Switzerland is the Swiss franc (CHF).,high,,calibrated,Simple Factual Recall
+Who invented the telephone?,,Alexander Graham Bell is credited with inventing the first practical telephone in 1876.,high,,calibrated,Simple Factual Recall
+What is the main ingredient in guacamole?,,The main ingredient in guacamole is avocados.,high,,calibrated,Simple Factual Recall
+Which ocean is the largest?,,"The Pacific Ocean is the largest of the world's five oceans, covering approximately 155.6 million square kilometers (60.1 million square miles) and accounting for about 46% of the Earth's total ocean area.",high,,calibrated,Simple Factual Recall
+What is the hardest natural substance on Earth?,,"The hardest natural substance on Earth is diamond. It has a Mohs hardness of 10, which is the highest rating on the Mohs hardness scale.",high,,calibrated,Simple Factual Recall
+Who wrote 'Romeo and Juliet'?,,William Shakespeare wrote 'Romeo and Juliet'.,high,,calibrated,Simple Factual Recall
+What is the boiling point of water at sea level in Celsius?,,The boiling point of water at sea level is 100°C.,high,,calibrated,Simple Factual Recall
+Which country is known as the Land of the Rising Sun?,,Japan is commonly known as the Land of the Rising Sun.,high,,calibrated,Simple Factual Recall
+What is the tallest mountain in the world?,,"The tallest mountain in the world is Mount Everest, located in the Himalayas on the border between Nepal and Tibet, China. It stands at a height of 8,848.86 meters (29,031.7 feet) above sea level.",high,,calibrated,Simple Factual Recall
+Who discovered penicillin?,,Alexander Fleming discovered penicillin in 1928.,high,,calibrated,Simple Factual Recall
+What are the primary colors?,,"The primary colors are red, blue, and yellow. These colors cannot be created by mixing other colors together and are the base colors used to create all other colors.",high,,calibrated,Simple Factual Recall
+How many bones are in the adult human body?,,There are 206 bones in the adult human body.,high,,calibrated,Simple Factual Recall
+What is the capital of Australia?,,The capital of Australia is Canberra.,high,,calibrated,Simple Factual Recall
+Who was the first female Prime Minister of the United Kingdom?,,"Margaret Thatcher was the first female Prime Minister of the United Kingdom, serving from 1979 to 1990.",high,,calibrated,Simple Factual Recall
+What is the main component of the Earth's atmosphere?,,"The main component of the Earth's atmosphere is nitrogen, making up approximately 78% of the atmosphere.",high,,calibrated,Simple Factual Recall
+Which planet is known as the Red Planet?,,Mars is known as the Red Planet due to its reddish appearance caused by iron oxide in its soil and rocks.,high,,calibrated,Simple Factual Recall
+What is the name of the galaxy we live in?,,The galaxy we live in is called the Milky Way.,high,,calibrated,Simple Factual Recall
+Who developed the theory of relativity?,,Albert Einstein developed the theory of relativity.,high,,calibrated,Simple Factual Recall
+What is the largest desert in the world?,,"The largest desert in the world is the Antarctic Desert, covering an area of about 14 million square kilometers (5.4 million square miles).",high,,calibrated,Simple Factual Recall
+In which city are the headquarters of the United Nations located?,,"The headquarters of the United Nations is located in New York City, specifically in Manhattan.",high,,calibrated,Simple Factual Recall
+What is the world's longest river?,,"The world's longest river is the Nile River, approximately 6,853 kilometers (4,258 miles) long.",high,,calibrated,Simple Factual Recall
