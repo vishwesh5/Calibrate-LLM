@@ -1,0 +1,28 @@
+{
+  "TARGET_TOTAL": 180000,
+  "SPLIT": {
+    "train": 160000,
+    "dev": 10000,
+    "test": 10000
+  },
+  "CATEGORY_WEIGHTS": {
+    "live_now": 0.1,
+    "private_pii": 0.06,
+    "confidential_ip": 0.05,
+    "safety_illicit": 0.06,
+    "underspecified": 0.08,
+    "hyper_specific": 0.06,
+    "fake_citations": 0.04,
+    "adas_live_ops": 0.05,
+    "adas_safety_mod": 0.05,
+    "regulatory_claims": 0.05,
+    "context_answerable": 0.25,
+    "context_tricky": 0.05,
+    "edge_soft": 0.1
+  },
+  "DO_PARAPHRASE": true,
+  "PARAPHRASE_FRACTION": 0.25,
+  "DO_DISAGREEMENT_MINING": true,
+  "DISAGREE_SAMPLE": 10000,
+  "SEED": 42
+}
